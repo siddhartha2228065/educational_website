@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 import Footer from "./components/Footer/Footer";
-import Contact from "./components/Contact/Contact";
+import Contact from "./components/contact/Contact";
 import Swipe from "./components/Swipe/Swipe";
 import Card from "./components/Card/Card";
 import EnrollPage from "./components/Enroll/Enroll";
