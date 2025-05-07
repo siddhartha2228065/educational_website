@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 shadow-md hover:shadow-lg py-2 px-6;
+  }
+}
+
+@layer utilities {
+  .drop-shadow {
+    filter: drop-shadow(6px 8px 10px rgba(0, 0, 0, 0.5));
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+.animated-gradient-text {
+  background: linear-gradient(90deg, #2563eb, #6366f1, #8b5cf6);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: shimmer 3s linear infinite;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+/* Add these styles to your global CSS file */
+.text-animate {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.rotate-y-1 {
+  transform: rotateY(1deg);
+}
+
+.rotate-y-3 {
+  transform: rotateY(3deg);
+}
+
+/* Dark mode transitions */
+.dark {
+  color-scheme: dark;
+}
