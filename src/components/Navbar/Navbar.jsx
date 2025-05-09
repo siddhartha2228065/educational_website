@@ -68,7 +68,7 @@ const Navbar = () => {
             className={`font-bold text-xl sm:text-4xl transition-colors duration-300 ${textColor}`}
           >
             <span className="hidden sm:inline">Learners Point Coaching Centre</span>
-            <span className="sm:hidden">LP</span>
+            <span className="sm:hidden">Learners Point</span>
           </span>
         </a>
 
