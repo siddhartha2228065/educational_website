@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useAnimation } from 'framer-motion';
 import teach from "../../assets/teach.jpg";
-import small from "../../assets/small.png";
+import small from "../../assets/small.jpg";
 import track from "../../assets/track.jpg";
 import material from "../../assets/material.jpg";
 
